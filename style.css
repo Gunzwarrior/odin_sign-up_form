@@ -1,3 +1,65 @@
-p {
-  color: red
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  margin:0;
+  align-items: stretch;
+  height: 100%;
+}
+
+#left-side {
+  background-image: url(./img/background_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+#right-side {
+  background-color: red;
+  flex: 2;
+}
+
+#name-banner {
+  position:absolute;
+  height: 100px;
+  background-color:rgba(0, 0, 0, 0.349);
+  width: 100%;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#icon {
+  background-image: url(./img/odin-lined.png);
+  background-size:cover;
+  height: 6rem;
+  width: 4.5rem;
+  background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: "Norse Bold";
+  src: url(./fonts/Norse-Bold.otf);
+}
+
+#name {
+  font-family: "Norse Bold", Arial, Helvetica, sans-serif;
+  font-size: 5rem;
+  color: whitesmoke;
+}
+
+#credit {
+  color: whitesmoke;
+  margin-top: 96vh;
+  font-size: 0.8rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Arial, Helvetica, sans-serif;
 }
