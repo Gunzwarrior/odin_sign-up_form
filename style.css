@@ -74,6 +74,15 @@ body {
   justify-content: end;
 }
 
+#right-bottom-div {
+  justify-content: start;
+}
+
+#bottom-right-content {
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
 #intro {
   margin-left: 3rem;
   margin-right: 12rem;
@@ -90,4 +99,30 @@ p {
   font-weight: bold;
   font-size: 1.2rem;
   font-family: Helvetica, sans-serif;
+}
+
+#log-in {
+  margin-top: 2rem;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+a {
+  color: #596D48;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+}
+
+button {
+  background-color: #596D48;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px lightgray;
+  border: none;
 }
